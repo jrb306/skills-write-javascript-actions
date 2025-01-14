@@ -3,6 +3,7 @@ name: JS Actions
 on:
   issues:
     types: [labeled]
+  workflow_dispatch:
 
 jobs:
   action:
